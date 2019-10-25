@@ -2060,6 +2060,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -40704,6 +40706,8 @@ var render = function() {
           return _c("tr", { key: usuario.id }, [
             _c("td", [_vm._v(_vm._s(usuario.id))]),
             _vm._v(" "),
+            _c("td", [_vm._v(_vm._s(usuario.documento))]),
+            _vm._v(" "),
             _c("td", [_vm._v(_vm._s(usuario.nombres))]),
             _vm._v(" "),
             _c("td", [_vm._v(_vm._s(usuario.apellidos))]),
@@ -40780,7 +40784,9 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("th", [_vm._v("Telefono")]),
         _vm._v(" "),
-        _c("th", [_vm._v("Estado")])
+        _c("th", [_vm._v("Estado")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Opciones")])
       ])
     ])
   },
@@ -53202,8 +53208,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\Developer\insoftar\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Developer\insoftar\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\wamp64\www\developer\Insoftar\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\developer\Insoftar\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

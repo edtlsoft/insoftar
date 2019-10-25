@@ -15,11 +15,13 @@
                     <th>Correo</th>
                     <th>Telefono</th>
                     <th>Estado</th>
+                    <th>Opciones</th>
                 </tr>
             </thead>
             <tbody>
                 <tr v-for="usuario in usuarios" :key="usuario.id">
                     <td>{{ usuario.id }}</td>
+                    <td>{{ usuario.documento }}</td>
                     <td>{{ usuario.nombres }}</td>
                     <td>{{ usuario.apellidos }}</td>
                     <td>{{ usuario.correo }}</td>
