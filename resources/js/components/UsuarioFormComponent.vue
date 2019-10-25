@@ -119,8 +119,10 @@
                     EventBus.$emit('recargarListadoDeUsuarios');
 
                     setTimeout(() => {
+                        this.msgerror = {};
+                        
                         $('div#modal-usuario-form').modal('hide');
-                    }, 10000);
+                    }, 1000);
                 })
                 .catch(errors => {
                     console.log(errors);

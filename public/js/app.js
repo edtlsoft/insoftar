@@ -1958,8 +1958,9 @@ __webpack_require__.r(__webpack_exports__);
         };
         _EventBus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('recargarListadoDeUsuarios');
         setTimeout(function () {
+          _this2.msgerror = {};
           $('div#modal-usuario-form').modal('hide');
-        }, 10000);
+        }, 1000);
       })["catch"](function (errors) {
         console.log(errors);
         typeof errors.response != 'undefined' ? _this2.mostrarErroresHTTP(errors.response.data) : true;
@@ -53201,8 +53202,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\wamp64\www\developer\Insoftar\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\wamp64\www\developer\Insoftar\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Developer\insoftar\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\Developer\insoftar\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

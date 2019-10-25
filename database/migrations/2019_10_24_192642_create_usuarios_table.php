@@ -18,7 +18,7 @@ class CreateUsuariosTable extends Migration
             $table->unsignedBigInteger('documento')->unique();
             $table->string('nombres');
             $table->string('apellidos');
-            $table->string('correo')->unique();
+            $table->string('correo', 150)->unique();
             $table->string('telefono');
             $table->boolean('estado')->default(true);
             $table->timestamps();
